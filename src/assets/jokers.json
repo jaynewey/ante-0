@@ -1,0 +1,3672 @@
+[
+  {
+    "name": "Joker",
+    "effect": "+4 Mult",
+    "cost": 2,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Greedy Joker",
+    "effect": "Played cards with Diamond suit give +3 Mult when scored",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Diamond"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Lusty Joker",
+    "effect": "Played cards with Heart suit give +3 Mult when scored",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Heart"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Wrathful Joker",
+    "effect": "Played cards with Spade suit give +3 Mult when scored",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Spade"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Gluttonous Joker",
+    "effect": "Played cards with Club suit give +3 Mult when scored",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Club"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Jolly Joker",
+    "effect": "+8 Mult if played hand contains a Pair",
+    "cost": 3,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [
+      "Pair",
+      "Two Pair",
+      "Three of a Kind",
+      "Four of a Kind",
+      "Five of a Kind",
+      "Full House",
+      "Flush House",
+      "Flush Five"
+    ],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Zany Joker",
+    "effect": "+12 Mult if played hand contains a Three of a Kind",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [
+      "Three of a Kind",
+      "Four of a Kind",
+      "Five of a Kind",
+      "Full House",
+      "Flush House",
+      "Flush Five"
+    ],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Mad Joker",
+    "effect": "+10 Mult if played hand contains a Two Pair",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Two Pair", "Full House", "Flush House"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Crazy Joker",
+    "effect": "+12 Mult if played hand contains a Straight",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Straight", "Straight Flush"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Droll Joker",
+    "effect": "+10 Mult if played hand contains a Flush",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Flush", "Straight Flush", "Flush Five", "Flush House"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Sly Joker",
+    "effect": "+50 Chips if played hand contains a Pair",
+    "cost": 3,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [
+      "Pair",
+      "Two Pair",
+      "Three of a Kind",
+      "Four of a Kind",
+      "Five of a Kind",
+      "Full House",
+      "Flush House",
+      "Flush Five"
+    ],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Wily Joker",
+    "effect": "+100 Chips if played hand contains a Three of a Kind",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [
+      "Three of a Kind",
+      "Four of a Kind",
+      "Five of a Kind",
+      "Full House",
+      "Flush House",
+      "Flush Five"
+    ],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Clever Joker",
+    "effect": "+80 Chips if played hand contains a Two Pair",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Two Pair", "Full House", "Flush House"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Devious Joker",
+    "effect": "+100 Chips if played hand contains a Straight",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Straight", "Straight Flush"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Crafty Joker",
+    "effect": "+80 Chips if played hand contains a Flush",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Flush", "Straight Flush", "Flush Five", "Flush House"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Half Joker",
+    "effect": "+20 Mult if played hand contains 3 or fewer cards",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Joker Stencil",
+    "effect": "X1 Mult for each empty Joker slot Joker Stencil included",
+    "cost": 8,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Four Fingers",
+    "effect": "All Flushes and Straights can be made with 4 cards",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Straight", "Flush", "Straight Flush", "Flush Five", "Flush House"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Mime",
+    "effect": "Retrigger all card held in hand abilities",
+    "cost": 5,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Retrigger"],
+        "activation": "On Held"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Credit Card",
+    "effect": "Go up to -$20 in debt",
+    "cost": 1,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Ceremonial Dagger",
+    "effect": "When Blind is selected, destroy Joker to the right and permanently add double its sell value to this Mult",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "On Blind Select"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Banner",
+    "effect": "+30 Chips for each remaining discard",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Down"],
+        "activation": "On Discard"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Mystic Summit",
+    "effect": "+15 Mult when 0 discards remaining",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Marble Joker",
+    "effect": "Adds one Stone card to the deck when Blind is selected",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "On Blind Select"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": ["Stone"],
+    "consumables": []
+  },
+  {
+    "name": "Loyalty Card",
+    "effect": "X4 Mult every 6 hands played",
+    "cost": 5,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "8 Ball",
+    "effect": "1 in 4 chance for each played 8 to create a Tarot card when scored",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["8"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": ["Tarot"]
+  },
+  {
+    "name": "Misprint",
+    "effect": "+0-23 Mult",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Dusk",
+    "effect": "Retrigger all played cards in final hand of the round",
+    "cost": 5,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Retrigger"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Raised Fist",
+    "effect": "Adds double the rank of lowest ranked card held in hand to Mult",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "On Held"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Chaos the Clown",
+    "effect": "1 free Reroll per shop",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Fibonacci",
+    "effect": "Each played Ace, 2, 3, 5, or 8 gives +8 Mult when scored",
+    "cost": 8,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Ace", "2", "3", "5", "8"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Steel Joker",
+    "effect": "Gives X0.2 Mult for each Steel Card in your full deck",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": ["Steel"],
+    "consumables": []
+  },
+  {
+    "name": "Scary Face",
+    "effect": "Played face cards give +30 Chips when scored",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Jack", "Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Abstract Joker",
+    "effect": "+3 Mult for each Joker card",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Delayed Gratification",
+    "effect": "Earn $2 per discard if no discards are used by end of the round",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Hack",
+    "effect": "Retrigger each played 2, 3, 4, or 5",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Retrigger"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["2", "3", "4", "5"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Pareidolia",
+    "effect": "All cards are considered face cards",
+    "cost": 5,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Jack", "Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Gros Michel",
+    "effect": "+15 Mult\n1 in 6 chance this is destroyed at the end of round.",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Chance to Self Destruct"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": false
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Even Steven",
+    "effect": "Played cards with even rank give +4 Mult when scored",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["2", "4", "6", "8", "10"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Odd Todd",
+    "effect": "Played cards with odd rank give +31 Chips when scored",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Ace", "3", "5", "7", "9"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Scholar",
+    "effect": "Played Aces give +20 Chips and +4 Mult when scored",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips", "+ Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Ace"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Business Card",
+    "effect": "Played face cards have a 1 in 2 chance to give $2 when scored",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Jack", "Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Supernova",
+    "effect": "Adds the number of times poker hand has been played this run to Mult",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Ride the Bus",
+    "effect": "This Joker gains +1 Mult per consecutive hand played without a scoring face card",
+    "cost": 6,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "On Played"
+      },
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": ["Jack", "Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Space Joker",
+    "effect": "1 in 4 chance to upgrade level of played poker hand",
+    "cost": 5,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "On Played"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Egg",
+    "effect": "Gains $3 of sell value at end of round",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Burglar",
+    "effect": "When Blind is selected, gain +3 Hands and lose all discards",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "On Blind Select"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Blackboard",
+    "effect": "X3 Mult if all cards held in hand are Spades or Clubs",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Spade", "Club"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Runner",
+    "effect": "Gains +15 Chips if played hand contains a Straight",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Scale Up"],
+        "activation": "On Played"
+      },
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Straight", "Straight Flush"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Ice Cream",
+    "effect": "+100 Chips-5 Chips for every hand played",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Down", "Self Destruct"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": false
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "DNA",
+    "effect": "If first hand of round has only 1 card, add a permanent copy to deck and draw it to hand",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "On Played"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Splash",
+    "effect": "Every played card counts in scoring",
+    "cost": 3,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Blue Joker",
+    "effect": "+2 Chips for each remaining card in deck",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Sixth Sense",
+    "effect": "If first hand of round is a single 6, destroy it and create a Spectral card",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": ["Spectral"]
+  },
+  {
+    "name": "Constellation",
+    "effect": "This Joker gains X0.1 Mult every time a Planet card is used",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": ["Planet"]
+  },
+  {
+    "name": "Hiker",
+    "effect": "Every played card permanently gains +5 Chips when scored",
+    "cost": 5,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Faceless Joker",
+    "effect": "Earn $5 if 3 or more face cards are discarded at the same time",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "On Discard"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Jack", "Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Green Joker",
+    "effect": "+1 Mult per hand played -1 Mult per discard",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Scale Up"],
+        "activation": "On Played"
+      },
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Down"],
+        "activation": "On Discard"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Superposition",
+    "effect": "Create a Tarot card if poker hand contains an Ace and a Straight",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Ace"],
+    "suits": [],
+    "hands": ["Straight", "Straight Flush"],
+    "enhancements": [],
+    "consumables": ["Tarot"]
+  },
+  {
+    "name": "To Do List",
+    "effect": "Earn $4 if poker hand is a [Poker Hand], poker hand changes at end of round",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "On Played"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Cavendish",
+    "effect": "X3 Mult 1 in 1000 chance this card is destroyed at the end of round",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Chance to Self Destruct"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": false
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Card Sharp",
+    "effect": "X3 Mult if played poker hand has already been played this round",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Red Card",
+    "effect": "This Joker gains +3 Mult when any Booster Pack is skipped",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Madness",
+    "effect": "When Small Blind or Big Blind is selected, gain X0.5 Mult and destroy a random Joker",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "On Blind Select"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Square Joker",
+    "effect": "This Joker gains +4 Chips if played hand has exactly 4 cards",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Scale Up"],
+        "activation": "On Played"
+      },
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "S\u00e9ance",
+    "effect": "If poker hand is a Straight Flush, create a random Spectral card",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Straight Flush"],
+    "enhancements": [],
+    "consumables": ["Spectral"]
+  },
+  {
+    "name": "Riff-Raff",
+    "effect": "When Blind is selected, create 2 Common Jokers",
+    "cost": 6,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "On Blind Select"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Vampire",
+    "effect": "This Joker gains X0.1 Mult per scoring Enhanced card played, removes card Enhancement",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Scale Up"],
+        "activation": "On Played"
+      },
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": ["Bonus", "Mult", "Wild", "Glass", "Steel", "Stone", "Gold", "Lucky"],
+    "consumables": []
+  },
+  {
+    "name": "Shortcut",
+    "effect": "Allows Straights to be made with gaps of 1 rank",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Straight", "Straight Flush"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Hologram",
+    "effect": "This Joker gains X0.25 Mult every time a playing card is added to your deck",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Vagabond",
+    "effect": "Create a Tarot card if hand is played with $4 or less",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": ["Tarot"]
+  },
+  {
+    "name": "Baron",
+    "effect": "Each King held in hand gives X1.5 Mult",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "On Held"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Cloud 9",
+    "effect": "Earn $1 for each 9 in your full deck at end of round",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "N/A"
+      },
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["9"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Rocket",
+    "effect": "Earn $1 at end of round. Payout increases by $2 when Boss Blind is defeated",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "N/A"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Obelisk",
+    "effect": "This Joker gains X0.2 Mult per consecutive hand played without playing your most played poker hand",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "On Played"
+      },
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Midas Mask",
+    "effect": "All played face cards become Gold cards when scored",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "On Played"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Jack", "Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": ["Gold"],
+    "consumables": []
+  },
+  {
+    "name": "Luchador",
+    "effect": "Sell this card to disable the current Boss Blind",
+    "cost": 5,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": false
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Photograph",
+    "effect": "First played face card gives X2 Mult when scored",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Jack", "Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Gift Card",
+    "effect": "Add $1 of sell value to every Joker and Consumable card at end of round",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Turtle Bean",
+    "effect": "+5 hand size, reduces by 1 each round",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect", "Self Destruct"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": false
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Erosion",
+    "effect": "+4 Mult for each card below [the deck's starting size] in your full deck",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Reserved Parking",
+    "effect": "Each face card held in hand has a 1 in 2 chance to give $1",
+    "cost": 6,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "On Held"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Jack", "Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Mail-In Rebate",
+    "effect": "Earn $5 for each discarded [rank], rank changes every round",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "On Discard"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "To the Moon",
+    "effect": "Earn an extra $1 of interest for every $5 you have at end of round",
+    "cost": 5,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Hallucination",
+    "effect": "1 in 2 chance to create a Tarot card when any Booster Pack is opened",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": ["Tarot"]
+  },
+  {
+    "name": "Fortune Teller",
+    "effect": "+1 Mult per Tarot card used this run",
+    "cost": 6,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": ["Tarot"]
+  },
+  {
+    "name": "Juggler",
+    "effect": "+1 hand size",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Drunkard",
+    "effect": "+1 discard each round",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Stone Joker",
+    "effect": "Gives +25 Chips for each Stone Card in your full deck",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": ["Stone"],
+    "consumables": []
+  },
+  {
+    "name": "Golden Joker",
+    "effect": "Earn $4 at end of round",
+    "cost": 6,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Lucky Cat",
+    "effect": "This Joker gains X0.25 Mult every time a Lucky card successfully triggers",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Scale Up"],
+        "activation": "On Scored"
+      },
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": ["Lucky"],
+    "consumables": []
+  },
+  {
+    "name": "Baseball Card",
+    "effect": "Uncommon Jokers each give X1.5 Mult",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "On Other Jokers"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Bull",
+    "effect": "+2 Chips for each $1 you have",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Diet Cola",
+    "effect": "Sell this card to create a free Double Tag",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": false
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Trading Card",
+    "effect": "If first discard of round has only 1 card, destroy it and earn $3",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "On Discard"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["3"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Flash Card",
+    "effect": "This Joker gains +2 Mult per reroll in the shop",
+    "cost": 5,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Popcorn",
+    "effect": "+20 Mult -4 Mult per round played",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Down", "Self Destruct"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": false
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Spare Trousers",
+    "effect": "This Joker gains +2 Mult if played hand contains a Two Pair",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Scale Up"],
+        "activation": "On Played"
+      },
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Two Pair", "Full House", "Flush House"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Ancient Joker",
+    "effect": "Each played card with [suit] gives X1.5 Mult when scored, suit changes at end of round",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Ramen",
+    "effect": "X2 Mult, loses X0.01 Mult per card discarded",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Down"],
+        "activation": "On Discard"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": false
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Walkie Talkie",
+    "effect": "Each played 10 or 4 gives +10 Chips and +4 Mult when scored",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips", "+ Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["4", "10"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Seltzer",
+    "effect": "Retrigger all cards played for the next 10 hands",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["Retrigger"],
+        "activation": "On Scored"
+      },
+      {
+        "ability": ["Self Destruct"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": false
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Castle",
+    "effect": "This Joker gains +3 Chips per discarded [suit] card, suit changes every round",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "On Discard"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Smiley Face",
+    "effect": "Played face cards give +5 Mult when scored",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Jack", "Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Campfire",
+    "effect": "This Joker gains X0.25 Mult for each card sold, resets when Boss Blind is defeated",
+    "cost": 9,
+    "rarity": "Rare",
+    "unlock_requirement": "Available from start.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Golden Ticket",
+    "effect": "Played Gold cards earn $4 when scored",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Play a 5 card hand that contains only Gold cards",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": ["Gold"],
+    "consumables": []
+  },
+  {
+    "name": "Mr. Bones",
+    "effect": "Prevents Death if chips scored are at least 25% of required chips self destructs",
+    "cost": 5,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Lose 5 runs",
+    "abilities": [
+      {
+        "ability": ["Effect", "Requirement to Activate", "Self Destruct"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": false
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Acrobat",
+    "effect": "X3 Mult on final hand of round",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Play 200 hands",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Sock and Buskin",
+    "effect": "Retrigger all played face cards",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Play a total of 300 face cards",
+    "abilities": [
+      {
+        "ability": ["Retrigger"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Jack", "Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Swashbuckler",
+    "effect": "Adds the sell value of all other owned Jokers to Mult",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Sell a total of 20 Joker cards",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Troubadour",
+    "effect": "+2 hand size, -1 hand each round",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Win 5 consecutive rounds by playing only 1 hand",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Certificate",
+    "effect": "When round begins, add a random playing card with a random seal to your hand",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Have a Gold playing card with a Gold Seal",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Smeared Joker",
+    "effect": "Hearts and Diamonds count as the same suit, Spades and Clubs count as the same suit",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Have at least 3 Wild Card in your deck",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Heart", "Diamond", "Spade", "Club"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Throwback",
+    "effect": "X0.25 Mult for each Blind skipped this run",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Continue a saved run from the main menu",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Hanging Chad",
+    "effect": "Retrigger first played card used in scoring 2 additional times",
+    "cost": 4,
+    "rarity": "Common",
+    "unlock_requirement": "Beat a Boss Blind with a High Card",
+    "abilities": [
+      {
+        "ability": ["Retrigger"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Rough Gem",
+    "effect": "Played cards with Diamond suit earn $1 when scored",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Have at least 30 cards with Diamond suit in your deck",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Diamond"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Bloodstone",
+    "effect": "1 in 2 chance for played cards with Heart suit to give X1.5 Mult when scored",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Have at least 30 cards with Heart suit in your deck",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Heart"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Arrowhead",
+    "effect": "Played cards with Spade suit give +50 Chips when scored",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Have at least 30 cards with Spade suit in your deck",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Spade"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Onyx Agate",
+    "effect": "Played cards with Club suit give +7 Mult when scored",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Have at least 30 cards with Club suit in your deck",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Club"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Glass Joker",
+    "effect": "This Joker gains X0.75 Mult for every Glass Card that is destroyed",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Have at least 5 Glass Cards in your deck",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": ["Glass"],
+    "consumables": []
+  },
+  {
+    "name": "Showman",
+    "effect": "Joker, Tarot, Planet, and Spectral cards may appear multiple times",
+    "cost": 5,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Reach Ante level 4",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": ["Planet", "Tarot", "Spectral"]
+  },
+  {
+    "name": "Flower Pot",
+    "effect": "X3 Mult if poker hand contains a Diamond card, Club card, Heart card, and Spade card",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Reach Ante level 8",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Heart", "Diamond", "Spade", "Club"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Blueprint",
+    "effect": "Copies ability of Joker to the right",
+    "cost": 10,
+    "rarity": "Rare",
+    "unlock_requirement": "Win a run",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Wee Joker",
+    "effect": "This Joker gains +8 Chips when each played 2 is scored",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Win a run in 18 or fewer rounds",
+    "abilities": [
+      {
+        "ability": ["Scale Up"],
+        "activation": "On Scored"
+      },
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": false,
+      "eternal": true
+    },
+    "ranks": ["2"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Merry Andy",
+    "effect": "+3 discards each round, -1 hand size",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Win a run in 12 or fewer rounds",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Oops! All 6s",
+    "effect": "Doubles all listed probabilities",
+    "cost": 4,
+    "rarity": "Uncommon",
+    "unlock_requirement": "In one hand, earn at least 10,000 chips",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "The Idol",
+    "effect": "Each played [rank] of [suit] gives X2 Mult when scoredCard changes every round",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "In one hand, earn at least 1,000,000 chips",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Seeing Double",
+    "effect": "X2 Mult if played hand has a scoring Club card and a scoring card of any other suit",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Play a hand that contains four 7 of Clubs",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": ["Club"],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Matador",
+    "effect": "Earn $8 if played hand triggers the Boss Blind ability",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Defeat a Boss Blind in 1 hand without using any discards",
+    "abilities": [
+      {
+        "ability": ["Economy", "Requirement to Activate"],
+        "activation": "On Hand"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Hit the Road",
+    "effect": "This Joker gains X0.5 Mult for every Jack discarded this round",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Discard 5 Jacks at the same time.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "On Discard"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Jack"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "The Duo",
+    "effect": "X2 Mult if played hand contains a Pair",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Win a run without playing a Pair.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [
+      "Pair",
+      "Two Pair",
+      "Three of a Kind",
+      "Four of a Kind",
+      "Five of a Kind",
+      "Full House",
+      "Flush House",
+      "Flush Five"
+    ],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "The Trio",
+    "effect": "X3 Mult if played hand contains a Three of a Kind",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Win a run without playing a Three of a Kind.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [
+      "Three of a Kind",
+      "Four of a Kind",
+      "Five of a Kind",
+      "Full House",
+      "Flush House",
+      "Flush Five"
+    ],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "The Family",
+    "effect": "X4 Mult if played hand contains a Four of a Kind",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Win a run without playing a Four of a Kind.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Four of a Kind", "Five of a Kind", "Flush Five"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "The Order",
+    "effect": "X3 Mult if played hand contains a Straight",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Win a run without playing a Straight.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Straight", "Straight Flush"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "The Tribe",
+    "effect": "X2 Mult if played hand contains a Flush",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Win a run without playing a Flush.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": ["Flush", "Straight Flush", "Flush Five", "Flush House"],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Stuntman",
+    "effect": "+250 Chips,-2 hand size",
+    "cost": 7,
+    "rarity": "Rare",
+    "unlock_requirement": "Earn at least 100 million (100,000,000) Chips in a single hand.",
+    "abilities": [
+      {
+        "ability": ["+ Chips"],
+        "activation": "Independent"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Invisible Joker",
+    "effect": "After 2 rounds, sell this card to Duplicate a random Joker",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Win a run without ever having more than 4 Jokers",
+    "abilities": [
+      {
+        "ability": ["Effect", "Requirement to Activate"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": false
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Brainstorm",
+    "effect": "Copies the ability of leftmost Joker",
+    "cost": 10,
+    "rarity": "Rare",
+    "unlock_requirement": "Discard a Royal Flush.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Satellite",
+    "effect": "Earn $1 at end of round per unique Planet card used this run",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Have at least $400.",
+    "abilities": [
+      {
+        "ability": ["Economy"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": ["Planet"]
+  },
+  {
+    "name": "Shoot the Moon",
+    "effect": "Each Queen held in hand gives +13 Mult",
+    "cost": 5,
+    "rarity": "Common",
+    "unlock_requirement": "Play every Heart card in your deck in one round.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "On Held"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Queen"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Driver's License",
+    "effect": "X3 Mult if you have at least 16 Enhanced cards in your full deck",
+    "cost": 7,
+    "rarity": "Rare",
+    "unlock_requirement": "Enhance 16 cards in your deck",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Requirement to Activate"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": ["Bonus", "Mult", "Wild", "Glass", "Steel", "Stone", "Gold", "Lucky"],
+    "consumables": []
+  },
+  {
+    "name": "Cartomancer",
+    "effect": "Create a Tarot card when Blind is selected",
+    "cost": 6,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Discover every Tarot Card.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "On Blind Select"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": ["Tarot"]
+  },
+  {
+    "name": "Astronomer",
+    "effect": "All Planet cards and Celestial Packs in the shop are free",
+    "cost": 8,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Discover every Planet card",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": ["Planet"]
+  },
+  {
+    "name": "Burnt Joker",
+    "effect": "Upgrade the level of the first discarded poker hand each round",
+    "cost": 8,
+    "rarity": "Rare",
+    "unlock_requirement": "Sell 50 cards.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "On Discard"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Bootstraps",
+    "effect": "+2 Mult for every $5 you have",
+    "cost": 7,
+    "rarity": "Uncommon",
+    "unlock_requirement": "Have at least 2 Polychrome Jokers at the same time.",
+    "abilities": [
+      {
+        "ability": ["+ Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up with Reset"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Canio",
+    "effect": "This Joker gains X1 Mult when a face card is destroyed",
+    "cost": null,
+    "rarity": "Legendary",
+    "unlock_requirement": "Find this Joker from the Soul card.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Scale Up"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Jack", "Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Triboulet",
+    "effect": "Played Kings and Queens each give X2 Mult when scored",
+    "cost": null,
+    "rarity": "Legendary",
+    "unlock_requirement": "Find this Joker from the Soul card.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "On Scored"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": ["Queen", "King"],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Yorick",
+    "effect": "This Joker gains X1 Mult every 23 cards discarded",
+    "cost": null,
+    "rarity": "Legendary",
+    "unlock_requirement": "Find this Joker from the Soul card.",
+    "abilities": [
+      {
+        "ability": ["X Mult"],
+        "activation": "Independent"
+      },
+      {
+        "ability": ["Requirement to Activate"],
+        "activation": "On Discard"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Chicot",
+    "effect": "Disables effect of every Boss Blind",
+    "cost": null,
+    "rarity": "Legendary",
+    "unlock_requirement": "Find this Joker from the Soul card.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "On Blind Select"
+      }
+    ],
+    "compatibility": {
+      "copyable": false,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  },
+  {
+    "name": "Perkeo",
+    "effect": "Creates a Negative copy of 1 random consumable card in your possession at the end of the shop",
+    "cost": null,
+    "rarity": "Legendary",
+    "unlock_requirement": "Find this Joker from the Soul card.",
+    "abilities": [
+      {
+        "ability": ["Effect"],
+        "activation": "N/A"
+      }
+    ],
+    "compatibility": {
+      "copyable": true,
+      "perishable": true,
+      "eternal": true
+    },
+    "ranks": [],
+    "suits": [],
+    "hands": [],
+    "enhancements": [],
+    "consumables": []
+  }
+]

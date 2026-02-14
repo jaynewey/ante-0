@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./Inter-VariableFont_opsz,wght.ttf');
+}
+@theme {
+  --font-sans: 'Inter', sans-serif;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+@keyframes dance {
+  0%,
+  100% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+}
+
+/* used for cards */
+.animate-dance {
+  animation: dance 3s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: scale(0.95) rotate(-1deg);
+  }
+  50% {
+    transform: rotate(1deg);
+  }
+}
+
+.animate-breathe {
+  animation: breathe 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  50% {
+    filter: brightness(125%);
+  }
+}
+
+/* used for stickers */
+.animate-shimmer {
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+}
