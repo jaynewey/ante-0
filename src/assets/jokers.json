@@ -1106,7 +1106,7 @@
     "unlock_requirement": "Available from start.",
     "abilities": [
       {
-        "ability": ["Economy"],
+        "ability": ["Economy", "Scale Up"],
         "activation": "N/A"
       }
     ],
@@ -1196,7 +1196,7 @@
   },
   {
     "name": "Ice Cream",
-    "effect": "+100 Chips-5 Chips for every hand played",
+    "effect": "+100 Chips\n-5 Chips for every hand played",
     "cost": 5,
     "rarity": "Common",
     "unlock_requirement": "Available from start.",
@@ -1311,7 +1311,7 @@
       "perishable": true,
       "eternal": true
     },
-    "ranks": [],
+    "ranks": ["6"],
     "suits": [],
     "hands": [],
     "enhancements": [],
@@ -1469,7 +1469,7 @@
   },
   {
     "name": "Cavendish",
-    "effect": "X3 Mult 1 in 1000 chance this card is destroyed at the end of round",
+    "effect": "X3 Mult\n1 in 1000 chance this card is destroyed at the end of round",
     "cost": 4,
     "rarity": "Common",
     "unlock_requirement": "Available from start.",
@@ -1948,7 +1948,7 @@
     "unlock_requirement": "Available from start.",
     "abilities": [
       {
-        "ability": ["Effect", "Self Destruct"],
+        "ability": ["Effect", "Self Destruct", "Scale Down"],
         "activation": "N/A"
       }
     ],
@@ -2322,7 +2322,7 @@
       "perishable": true,
       "eternal": true
     },
-    "ranks": ["3"],
+    "ranks": [],
     "suits": [],
     "hands": [],
     "enhancements": [],
@@ -2611,7 +2611,7 @@
   },
   {
     "name": "Mr. Bones",
-    "effect": "Prevents Death if chips scored are at least 25% of required chips self destructs",
+    "effect": "Prevents Death if chips scored are at least 25% of required chips\nself destructs",
     "cost": 5,
     "rarity": "Uncommon",
     "unlock_requirement": "Lose 5 runs",
@@ -3083,7 +3083,7 @@
   },
   {
     "name": "The Idol",
-    "effect": "Each played [rank] of [suit] gives X2 Mult when scoredCard changes every round",
+    "effect": "Each played [rank] of [suit] gives X2 Mult when scored\nCard changes every round",
     "cost": 6,
     "rarity": "Uncommon",
     "unlock_requirement": "In one hand, earn at least 1,000,000 chips",
@@ -3310,7 +3310,7 @@
   },
   {
     "name": "Stuntman",
-    "effect": "+250 Chips,-2 hand size",
+    "effect": "+250 Chips, -2 hand size",
     "cost": 7,
     "rarity": "Rare",
     "unlock_requirement": "Earn at least 100 million (100,000,000) Chips in a single hand.",
@@ -3667,6 +3667,6 @@
     "suits": [],
     "hands": [],
     "enhancements": [],
-    "consumables": []
+    "consumables": ["Planet", "Tarot", "Spectral"]
   }
 ]
