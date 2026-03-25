@@ -113,10 +113,11 @@ function getEffects(abilities: Ability[]): AbilityType[] {
         case 'Chance to Self Destruct':
           return 'Self Destruct'
         case 'Requirement to Activate':
-          return 'Conditional'
+          return null
       }
       return ability
     })
+    .filter((ability) => ability !== null)
   return [...new Set(allEffects)]
 }
 

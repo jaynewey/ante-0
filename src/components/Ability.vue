@@ -20,7 +20,6 @@ defineProps<Props>()
       'border-orange-300 bg-orange-600/10 text-orange-300': ability === 'Self Destruct',
       'border-lime-300 bg-lime-600/10 text-lime-300': ability === 'Retrigger',
       'border-teal-300 bg-teal-600/10 text-teal-300': ability === 'Scale',
-      'border-stone-300 bg-stone-600/10 text-stone-300': ability === 'Conditional',
     }"
   >
     <i-charm-chevrons-up class="inline" v-if="ability === 'X Mult'" />
@@ -29,7 +28,6 @@ defineProps<Props>()
     <i-charm-skull class="inline" v-else-if="ability === 'Self Destruct'" />
     <i-charm-refresh class="inline" v-else-if="ability === 'Retrigger'" />
     <i-charm-swap-vertical class="inline" v-else-if="ability === 'Scale'" />
-    <i-charm-clipboard-tick class="inline" v-else-if="ability === 'Conditional'" />
     <span>{{ ability }}</span>
   </div>
 </template>

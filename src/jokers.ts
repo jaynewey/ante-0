@@ -12,7 +12,6 @@ export const ABILITIES = [
   'Self Destruct',
   'Retrigger',
   'Scale',
-  'Conditional',
 ] as const
 
 export type AbilityType = (typeof ABILITIES)[number]
