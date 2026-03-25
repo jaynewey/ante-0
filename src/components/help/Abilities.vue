@@ -34,10 +34,6 @@ import Ability from '../Ability.vue'
         <Ability class="mr-1 inline text-xs" ability="Scale" /> jokers can scale themselves up or
         down. This does not apply to jokers which scale other cards, like Hiker.
       </li>
-      <li>
-        <Ability class="mr-1 inline text-xs" ability="Conditional" /> jokers require a condition to
-        be met before it can activate.
-      </li>
     </ul>
     <hr class="my-8 h-px border-0 bg-slate-600" />
     <ul class="space-y-4 text-sm">
